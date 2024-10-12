@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.eco-gradient {
+    background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+
+/* Optimize font rendering */
+body {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition: none !important;
+    }
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    body {
+        @apply bg-gray-900 text-white;
+    }
+
+    .bg-white {
+        @apply bg-gray-800;
+    }
+
+    .text-gray-600 {
+        @apply text-gray-400;
+    }
+
+    .text-gray-700 {
+        @apply text-gray-300;
+    }
+}
+
+a {
+    color: mediumpurple;
+    text-decoration: underline;
+}
+
+.fixed-size {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
