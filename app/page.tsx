@@ -3,7 +3,7 @@
 import {useState} from 'react';
 import Image from 'next/image';
 import Link from "next/link";
-import {FlecheDroite, FlecheGauche, Mail, Python, Sql, Java, Php, Typescript, Linkedin, Github, Windev} from './svgs';
+import {FlecheDroite, FlecheGauche, Mail, Python, Sql, Java, Php, Typescript, Windev} from './svgs';
 import './globals.css';
 
 export default function Page() {
@@ -47,7 +47,7 @@ export default function Page() {
                             Développeur Windev en alternance</h2>
                         <p className="text-gray-700 mb-4">
                             Bienvenue sur mon portfolio ! Je suis étudiant en troisième année de BUT Informatique à
-                            l'IUT de Lens et développeur Windev en alternance chez <Link
+                            l&apos;IUT de Lens et développeur Windev en alternance chez <Link
                             href="https://www.primever.com">Primever</Link>. Je suis passionné par le développement, et
                             je suis toujours à la recherche de nouveaux projets à réaliser.
                         </p>
@@ -60,23 +60,23 @@ export default function Page() {
                         <h2 className="mt-4 text-2xl font-bold mb-4">Présentation</h2>
                         <p className="text-gray-700 mb-4">
                             Le goût du développement est apparu chez moi lors des cours de technologie au collège. Bien
-                            que ce n'était rien de vraiment poussé (Scratch), mon goût pour l'algorithmique s'est
-                            développé durant cette période. C'est donc logiquement que j'ai effectué mon stage
-                            d'observation de troisième au sein d'une ESN dans laquelle j'ai découvert les langages HTML
+                            que ce n&apos;était rien de vraiment poussé (Scratch), mon goût pour l&apos;algorithmique s&apos;est
+                            développé durant cette période. C&apos;est donc logiquement que j&apos;ai effectué mon stage
+                            d&apos;observation de troisième au sein d&apos;une ESN dans laquelle j&apos;ai découvert les langages HTML
                             et CSS.
                         </p>
                         <p className="text-gray-700 mb-4">
-                            Au lycée, j'ai suivi un baccalauréat général avec les spécialités Mathématiques, NSI
-                            (Numérique et Sciences Informatiques) et physique-chimie. J'ai arrêté cette dernière à la
+                            Au lycée, j&apos;ai suivi un baccalauréat général avec les spécialités Mathématiques, NSI
+                            (Numérique et Sciences Informatiques) et physique-chimie. J&apos;ai arrêté cette dernière à la
                             fin de la terminale car les deux autres étaient trop importantes pour que je les arrête. En
-                            effet, la NSI et les mathématiques me permettaient de développer mon algorithmie. J'ai
+                            effet, la NSI et les mathématiques me permettaient de développer mon algorithmie. J&apos;ai
                             obtenu mon bacalauréat avec mention très bien en 2022.
                         </p>
                         <p className="text-gray-700 mb-4">
-                            Je suis aujourd'hui en deuxième année de BUT informatique à Lens. J'ai préféré cette
-                            formation plutôt qu'une autre car elle me permet de continuer de développer mes compétences
+                            Je suis aujourd&apos;hui en deuxième année de BUT informatique à Lens. J&apos;ai préféré cette
+                            formation plutôt qu&apos;une autre car elle me permet de continuer de développer mes compétences
                             tout en suivant une formation dans laquelle la pratique est plus présente que la théorique,
-                            ce qui correspond plus à ma façon d'apprendre.
+                            ce qui correspond plus à ma façon d&apos;apprendre.
                         </p>
                     </div>
                 </div>
