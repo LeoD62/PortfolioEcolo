@@ -11,6 +11,7 @@
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@svgr/webpack": "^8.1.0",
+    "critters": "^0.0.25",
     "next": "15.0.1",
     "next-critical": "^0.1.1",
     "react": "^18.3.1",
