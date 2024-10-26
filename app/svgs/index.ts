@@ -1,3 +1,11 @@
 export {default as FlecheDroite} from './angle-droit.svg';
 export {default as FlecheGauche} from './angle-gauche.svg';
 export {default as Mail} from './mail.svg';
+export {default as Java} from './java.svg';
+export {default as Python} from './python.svg';
+export {default as Sql} from './sql.svg';
+export {default as Php} from './php.svg';
+export {default as Typescript} from './typescript.svg';
+export {default as Github} from './github.svg';
+export {default as Linkedin} from './linkedin.svg';
+export {default as Windev} from './windev.svg';
