@@ -59,7 +59,8 @@ export default function Page() {
                         <p className="text-center text-sm text-gray-400 mt-4 mb-4">
                             Ce portfolio a été conçu de manière écoresponsable.
                         </p>
-                        <WebsiteCarbonBadge url="https://portfolio-ecolo.vercel.app/" lang="fr" dark="true" co2="0.07" percentage="94"/>
+                        <WebsiteCarbonBadge url="https://portfolio-ecolo.vercel.app/" lang="fr" dark={true} co2="0.07"
+                                            percentage="94"/>
                         <div id="ecoindex-badge" data-theme="dark"></div>
                         <a href="https://bff.ecoindex.fr/redirect/?url=https://portfolio-ecolo.vercel.app/"
                            target="_blank">
@@ -79,7 +80,7 @@ export default function Page() {
                 </nav>
             )}
             <div className={`flex-1 p-4 transition-all ${isNavVisible ? 'ml-20' : ''}`}>
-            <div id="presentation" className="flex flex-col md:flex-row items-center m-4 gap-8">
+                <div id="presentation" className="flex flex-col md:flex-row items-center m-4 gap-8">
                     <div>
                         <h1 className="text-3xl font-bold mb-2">Léo Denis</h1>
                         <h2 className="text-xl text-purple-200 mb-4">Etudiant en troisième année de BUT Informatique /
@@ -115,7 +116,7 @@ export default function Page() {
                             obtenu mon bacalauréat avec mention très bien en 2022.
                         </p>
                         <p className="text-gray-700 mb-4">
-                            Je suis aujourd&apos;hui en deuxième année de BUT informatique à Lens. J&apos;ai préféré
+                            Je suis aujourd&apos;hui en troisième année de BUT informatique à Lens. J&apos;ai préféré
                             cette
                             formation plutôt qu&apos;une autre car elle me permet de continuer de développer mes
                             compétences
