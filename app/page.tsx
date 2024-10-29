@@ -24,7 +24,6 @@ import {
 } from './svgs';
 import './globals.css';
 import {WebsiteCarbonBadge} from "react-websitecarbon-badge";
-import Head from "next/head";
 
 export default function Page() {
     const [isNavVisible, setIsNavVisible] = useState(false);
