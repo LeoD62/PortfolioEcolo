@@ -14,4 +14,4 @@ export {default as Cooperation} from './personnes.svg';
 export {default as Puzzle} from './puzzle.svg';
 export {default as Montre} from './montre.svg';
 export {default as Sagesse} from './sagesse.svg';
-export {default as Strategie} from './Strategie.svg';
+export {default as Strategie} from './strategie.svg';
