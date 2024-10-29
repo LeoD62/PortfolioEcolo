@@ -24,6 +24,7 @@ import {
 } from './svgs';
 import './globals.css';
 import {WebsiteCarbonBadge} from "react-websitecarbon-badge";
+import Head from "next/head";
 
 export default function Page() {
     const [isNavVisible, setIsNavVisible] = useState(false);
@@ -59,13 +60,15 @@ export default function Page() {
                         <p className="text-center text-sm text-gray-400 mt-4 mb-4">
                             Ce portfolio a été conçu de manière écoresponsable.
                         </p>
-                        <WebsiteCarbonBadge url="https://portfolio-ecolo.vercel.app/" lang="fr" dark={true} co2="0.07"
+                        <WebsiteCarbonBadge url="https://portfolio-ecolo.vercel.app/" lang="fr" dark={true}
+                                            co2="0.07"
                                             percentage="94"/>
                         <div id="ecoindex-badge" data-theme="dark"></div>
                         <a href="https://bff.ecoindex.fr/redirect/?url=https://portfolio-ecolo.vercel.app/"
                            target="_blank">
-                            <img src="https://bff.ecoindex.fr/badge/?theme=dark&url=https://portfolio-ecolo.vercel.app/"
-                                 alt="Ecoindex Badge"/>
+                            <img
+                                src="https://bff.ecoindex.fr/badge/?theme=dark&url=https://portfolio-ecolo.vercel.app/"
+                                alt="Ecoindex Badge"/>
                         </a>
                         <div className="flex space-x-4 mt-4">
                             <Link href="https://github.com/LeoD62" target="_blank" rel="noopener noreferrer">
@@ -83,12 +86,14 @@ export default function Page() {
                 <div id="presentation" className="flex flex-col md:flex-row items-center m-4 gap-8">
                     <div>
                         <h1 className="text-3xl font-bold mb-2">Léo Denis</h1>
-                        <h2 className="text-xl text-purple-200 mb-4">Etudiant en troisième année de BUT Informatique /
+                        <h2 className="text-xl text-purple-200 mb-4">Etudiant en troisième année de BUT Informatique
+                            /
                             Développeur Windev en alternance</h2>
                         <p className="text-gray-700 mb-4">
                             Bienvenue sur mon portfolio ! Je suis étudiant en troisième année de BUT Informatique à
                             l&apos;IUT de Lens et développeur Windev en alternance chez <Link
-                            href="https://www.primever.com">Primever</Link>. Je suis passionné par le développement, et
+                            href="https://www.primever.com">Primever</Link>. Je suis passionné par le développement,
+                            et
                             je suis toujours à la recherche de nouveaux projets à réaliser.
                         </p>
                         <Link
@@ -99,34 +104,47 @@ export default function Page() {
                         </Link>
                         <h2 className="mt-4 text-2xl font-bold mb-4">Présentation</h2>
                         <p className="text-gray-700 mb-4">
-                            Le goût du développement est apparu chez moi lors des cours de technologie au collège. Bien
-                            que ce n&apos;était rien de vraiment poussé (Scratch), mon goût pour l&apos;algorithmique
+                            Le goût du développement est apparu chez moi lors des cours de technologie au collège.
+                            Bien
+                            que ce n&apos;était rien de vraiment poussé (Scratch), mon goût pour
+                            l&apos;algorithmique
                             s&apos;est
-                            développé durant cette période. C&apos;est donc logiquement que j&apos;ai effectué mon stage
-                            d&apos;observation de troisième au sein d&apos;une ESN dans laquelle j&apos;ai découvert les
+                            développé durant cette période. C&apos;est donc logiquement que j&apos;ai effectué mon
+                            stage
+                            d&apos;observation de troisième au sein d&apos;une ESN dans laquelle j&apos;ai découvert
+                            les
                             langages HTML
                             et CSS.
                         </p>
                         <p className="text-gray-700 mb-4">
-                            Au lycée, j&apos;ai suivi un baccalauréat général avec les spécialités Mathématiques, NSI
-                            (Numérique et Sciences Informatiques) et physique-chimie. J&apos;ai arrêté cette dernière à
+                            Au lycée, j&apos;ai suivi un baccalauréat général avec les spécialités Mathématiques,
+                            NSI
+                            (Numérique et Sciences Informatiques) et physique-chimie. J&apos;ai arrêté cette
+                            dernière à
                             la
-                            fin de la terminale car les deux autres étaient trop importantes pour que je les arrête. En
-                            effet, la NSI et les mathématiques me permettaient de développer mon algorithmie. J&apos;ai
+                            fin de la terminale car les deux autres étaient trop importantes pour que je les arrête.
+                            En
+                            effet, la NSI et les mathématiques me permettaient de développer mon algorithmie.
+                            J&apos;ai
                             obtenu mon bacalauréat avec mention très bien en 2022.
                         </p>
                         <p className="text-gray-700 mb-4">
-                            Je suis aujourd&apos;hui en troisième année de BUT informatique à Lens. J&apos;ai préféré
+                            Je suis aujourd&apos;hui en troisième année de BUT informatique à Lens. J&apos;ai
+                            préféré
                             cette
                             formation plutôt qu&apos;une autre car elle me permet de continuer de développer mes
                             compétences
-                            tout en suivant une formation dans laquelle la pratique est plus présente que la théorique,
+                            tout en suivant une formation dans laquelle la pratique est plus présente que la
+                            théorique,
                             ce qui correspond plus à ma façon d&apos;apprendre.
                         </p>
                         <p className="text-gray-700 mb-4">
-                            En parallèle de mes études, je travaille en alternance chez Primever en tant que développeur
-                            Windev depuis mars 2024. J&apos;ai choisi cette entreprise car elle me permet de développer
-                            mes compétences dans un langage que je ne connaissais pas du tout, et de découvrir le monde
+                            En parallèle de mes études, je travaille en alternance chez Primever en tant que
+                            développeur
+                            Windev depuis mars 2024. J&apos;ai choisi cette entreprise car elle me permet de
+                            développer
+                            mes compétences dans un langage que je ne connaissais pas du tout, et de découvrir le
+                            monde
                             de l&apos;entreprise.
                         </p>
                     </div>
