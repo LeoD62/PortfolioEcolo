@@ -23,6 +23,7 @@ import {
     Linkedin
 } from './svgs';
 import './globals.css';
+import {WebsiteCarbonBadge} from "react-websitecarbon-badge";
 
 export default function Page() {
     const [isNavVisible, setIsNavVisible] = useState(false);
@@ -31,6 +32,7 @@ export default function Page() {
             <button
                 onClick={() => setIsNavVisible(!isNavVisible)}
                 className="p-2 bg-purple-500 text-white fixed bottom-4 left-4 z-10"
+                aria-label={isNavVisible ? 'Fermer la navigation' : 'Ouvrir la navigation'}
             >
                 {isNavVisible ? <FlecheGauche className="w-6 h-6"/> : <FlecheDroite className="w-6 h-6"/>}
             </button>
@@ -57,6 +59,7 @@ export default function Page() {
                         <p className="text-center text-sm text-gray-400 mt-4 mb-4">
                             Ce portfolio a été conçu de manière écoresponsable.
                         </p>
+                        <WebsiteCarbonBadge url="https://portfolio-ecolo.vercel.app/" lang="fr" dark="true" co2="0.07" percentage="94"/>
                         <div id="ecoindex-badge" data-theme="dark"></div>
                         <a href="https://bff.ecoindex.fr/redirect/?url=https://portfolio-ecolo.vercel.app/"
                            target="_blank">
@@ -76,7 +79,7 @@ export default function Page() {
                 </nav>
             )}
             <div className={`flex-1 p-4 transition-all ${isNavVisible ? 'ml-20' : ''}`}>
-                <div id="presentation" className="flex flex-col md:flex-row items-center m-4 gap-8">
+            <div id="presentation" className="flex flex-col md:flex-row items-center m-4 gap-8">
                     <div>
                         <h1 className="text-3xl font-bold mb-2">Léo Denis</h1>
                         <h2 className="text-xl text-purple-200 mb-4">Etudiant en troisième année de BUT Informatique /

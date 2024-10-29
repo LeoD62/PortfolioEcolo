@@ -14,6 +14,19 @@ const nextConfig = {
         optimizeServerReact: true
     },
     swcMinify: true,
+    async headers() {
+        return [
+            {
+                source: '/(.*)',
+                headers: [
+                    {
+                        key: 'X-Robots-Tag',
+                        value: 'index, follow',
+                    },
+                ],
+            },
+        ];
+    },
 };
 
 export default nextConfig;
