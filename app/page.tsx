@@ -62,13 +62,13 @@ export default function Page() {
                         <WebsiteCarbonBadge url="https://portfolio-ecolo.vercel.app/" lang="fr" dark={true}
                                             co2="0.07"
                                             percentage="94"/>
-                        <div id="ecoindex-badge" data-theme="dark"></div>
-                        <a href="https://bff.ecoindex.fr/redirect/?url=https://portfolio-ecolo.vercel.app/"
-                           target="_blank">
-                            <img
-                                src="https://bff.ecoindex.fr/badge/?theme=dark&url=https://portfolio-ecolo.vercel.app/"
-                                alt="Ecoindex Badge"/>
-                        </a>
+                        {/*<div id="ecoindex-badge" data-theme="dark"></div>*/}
+                        {/*<a href="https://bff.ecoindex.fr/redirect/?url=https://portfolio-ecolo.vercel.app/"*/}
+                        {/*   target="_blank">*/}
+                        {/*    <img*/}
+                        {/*        src="https://bff.ecoindex.fr/badge/?theme=dark&url=https://portfolio-ecolo.vercel.app/"*/}
+                        {/*        alt="Ecoindex Badge"/>*/}
+                        {/*</a>*/}
                         <div className="flex space-x-4 mt-4">
                             <Link href="https://github.com/LeoD62" target="_blank" rel="noopener noreferrer">
                                 <Github className="w-6 h-6"/>
